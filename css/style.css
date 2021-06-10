@@ -1570,11 +1570,11 @@ header.fixed-top.sticky.videopage {
 		display: none;
 	}
 	.tab_drawer_heading {
-background: rgb(81,246,207);
-    background: -moz-linear-gradient(top, rgba(81,246,207,1) 0%, rgba(64,193,250,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(81,246,207,1) 0%,rgba(64,193,250,1) 100%);
-    background: linear-gradient(to bottom, rgb(70 212 236) 0%,rgba(64,193,250,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51f6cf', endColorstr='#40c1fa',GradientType=0 );
+background: rgb(81,246,207); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(7,223,208,1) 0%,rgba(23,120,162,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(7,223,208,1) 0%,rgba(23,120,162,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background:linear-gradient(to bottom,  rgba(7,223,208,1) 0%,rgba(23,120,162,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51f6cf', endColorstr='#40c1fa',GradientType=0 ); /* IE6-9 */
 		color: #fff;
 		border-top: 1px solid rgba(255,255,255,0.2);
 		margin: 0;

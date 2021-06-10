@@ -390,6 +390,7 @@
   </div>
 </div> </div>
 
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> 
 <script src="js/parallax.min.js"></script> 
@@ -397,153 +398,14 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script type="text/javascript" src="js/bootstrap.min.js"></script> 
 <script src="js/bootstrap.bundle.js"></script> 
-<script src="js/slide.js" type="text/javascript"></script> 
-
-<script src="js/slick.js"></script>
  
-<script>
-$(document).ready(function(){
- $('.volunteers').slick({
-  arrows: false,
-  dots: true,
-  autoplay: true,
-  infinite: true,
-  speed: 300,
-  pauseOnFocus: false, 
-pauseOnHover: false,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-		 dots: true,
-        slidesToScroll: 1,
-        infinite: true 
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-		 dots: true,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-		 dots: true,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-});
-</script>
 
-
-<script>
-$(document).ready(function(){
- $('.azurecommunities').slick({
-  arrows: false,
-  dots: true,
-  
-  infinite: true,
-  autoplay: true,
-  speed: 300,
-  slidesToShow: 5,
- //   autoplaySpeed: 1000,
-pauseOnFocus: false, 
-pauseOnHover: false,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-		 dots: true,
-        slidesToScroll: 1,
-        infinite: true 
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-		 dots: true,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 2,
-		 dots: true,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-});
-</script>
+ 
 
 
 
 
-<script>
-$(document).ready(function(){
- $('.opensourcepartners').slick({
-  arrows: false,
-  autoplay: true,
-   dots: true,
-  infinite: true,
-  speed: 300,
-  pauseOnFocus: false, 
-pauseOnHover: false,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow:3,
-		 dots: true,
-        slidesToScroll: 1,
-        infinite: true 
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-		 dots: true,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 2,
-		 dots: true,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-});
-</script>
+ 
 
 
 
@@ -582,104 +444,7 @@ $(window).resize(function(){
 
 
 
-<script type="text/javascript" src="js/jquery.waypoints.min.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.min.js"></script> 
-
-<!--<script src="js/custom.js"></script>-->
-
-
-<script id="rendered-js" >
-(function () {
-  const second = 1000,
-  minute = second * 60,
-  hour = minute * 60,
-  day = hour * 24;
-
-  let birthday = "Jun 30, 2021 00:00:00",
-  countDown = new Date(birthday).getTime(),
-  x = setInterval(function () {
-
-    let now = new Date().getTime(),
-    distance = countDown - now;
-
-    document.getElementById("days").innerText = Math.floor(distance / day),
-    document.getElementById("hours").innerText = Math.floor(distance % day / hour),
-    document.getElementById("minutes").innerText = Math.floor(distance % hour / minute),
-    document.getElementById("seconds").innerText = Math.floor(distance % minute / second);
-
-    //do something later when date is reached
-    if (distance < 0) {
-      let headline = document.getElementById("headline"),
-      countdown = document.getElementById("countdown"),
-      content = document.getElementById("content");
-
-      headline.innerText = "It's my birthday!";
-      countdown.style.display = "none";
-      content.style.display = "block";
-
-      clearInterval(x);
-    }
-    //seconds
-  }, 0);
-})();
-//# sourceURL=pen.js
-    </script> 
-<script type="text/javascript">
-
-  // Counter 
-
-            jQuery('.statistic-counter').counterUp({
-
-                delay: 10,
-
-                time: 2000
-
-            });
-
-  </script> 
-<script type="text/javascript">
-							$(document).ready(function() {
-                               // tabbed content
-    // http://www.entheosweb.com/tutorials/css/tabs.asp
-    $(".tab_content").hide();
-    $(".tab_content:first").show();
-
-  /* if in tab mode */
-    $("ul.tabs li").click(function() {
-		
-      $(".tab_content").hide();
-      var activeTab = $(this).attr("rel"); 
-      $("#"+activeTab).fadeIn();		
-		
-      $("ul.tabs li").removeClass("active");
-      $(this).addClass("active");
-
-	  $(".tab_drawer_heading").removeClass("d_active");
-	  $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
-	  
-    });
-	/* if in drawer mode */
-	$(".tab_drawer_heading").click(function() {
-      
-      $(".tab_content").hide();
-      var d_activeTab = $(this).attr("rel"); 
-      $("#"+d_activeTab).fadeIn();
-	  
-	  $(".tab_drawer_heading").removeClass("d_active");
-      $(this).addClass("d_active");
-	  
-	  $("ul.tabs li").removeClass("active");
-	  $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
-    });
-	
-	
-	/* Extra class "tab_last" 
-	   to add border to right side
-	   of last tab */
-	$('ul.tabs li').last().addClass("tab_last");
-	
-                            });
-						</script>
+ 
                         
                         
  <script>
@@ -711,7 +476,7 @@ $(window).resize(function(){
     
      <script>   
 $(document).ready(function () {
-    $(document).on("scroll", onScroll);
+ 
     
     //smoothscroll
     $('nav a[href^="#"]').on('click', function (e) {
@@ -736,28 +501,14 @@ $(document).ready(function () {
 });
 
  
-
-function onScroll(event){
-    var scrollPos = $(document).scrollTop();
-    $('nav li a').each(function () {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('.navbar-nav li a').removeClass("active");
-            currLink.addClass("active");
-        }
-        else{
-           // currLink.removeClass("active");
-        }
-    });
-}
+ 
 
 	</script>	
     
     
      <script>   
 $(document).ready(function () {
-    $(document).on("scroll", onScroll);
+   
     
     //smoothscroll
     $('footer a[href^="#"]').on('click', function (e) {
