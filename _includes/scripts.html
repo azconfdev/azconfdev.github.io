@@ -1,0 +1,315 @@
+<script src="/assets/dist/bundle.js"></script>
+<script src="/assets/js/slick.min.js"></script>
+<script src="/assets/js/jquery.countdown.min.js"></script>
+<script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f4b398185d5f400128975bb&product=sop' async='async'></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7073232-13"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    if (document.location.hostname != 'localhost' && document.location.hostname != '127.0.0.1') {
+        gtag('config', 'UA-7073232-13');
+    }
+    
+</script>
+
+<!-- Twitter universal website tag code -->
+<script>
+    !function (e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function () {
+            s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+        }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+            a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init', 'o4slt');
+    twq('track', 'PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+<!-- LinkedIn Pixel Code -->
+<script type="text/javascript">
+    _linkedin_partner_id = "2692284";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+    (function () {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript"; b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    })();
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2692284&fmt=gif" />
+</noscript>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '940649006430011');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=940649006430011&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function () {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '118751921193',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-118751921193',
+        onOrderComplete: exampleCallback,
+        promoCode: "confsite",
+        affiliateCode: "479734468697"
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3"></script>
+
+<script>
+    const button = new Crate({
+        server: '773534518787178536',
+        channel: '773534518787178539',
+        location: ['bottom', 'left']
+    })
+    // Random color every 300 milliseconds
+    setInterval(() => {
+        button.options.color = "#000000".replace(/0/g, () => {
+            return (~~(Math.random() * 16)).toString(16)
+        })
+    }, 300)
+
+    //// Change position
+    //setInterval(() => {
+    //    button.options.location = ['bottom', button.options.location[1] === 'left' ? 'right' : 'left']
+    //}, 1000)
+    //button.notify('Any Questions\\Issues\n```js\nPlease use this Chat\n```')
+</script>
+
+<script>
+
+    /* ==========================================================================
+ countdown timer
+ ========================================================================== */
+ var d = new Date('2020-11-24 09:00:00.000');
+
+    jQuery('#clock').countdown('2020/11/24 09:00:00', function (event) {
+        var $this = jQuery(this).html(event.strftime(''
+            + '<div class="time-entry days"><span>%-D</span><b>:</b> Days</div> '
+            + '<div class="time-entry hours"><span>%H</span> <b>:</b>Hours</div> '
+            + '<div class="time-entry minutes"><span>%M</span><b>:</b> Minutes</div> '
+            + '<div class="time-entry seconds"><span>%S</span>Seconds</div> '));
+    });
+
+    var scrollLink = $('.page-scroll');
+    // Active link switching
+    $(window).scroll(function () {
+        var scrollbarLocation = $(this).scrollTop();
+
+        scrollLink.each(function () {
+
+            var sectionOffset = $(this.hash).offset().top - 73;
+
+            if (sectionOffset <= scrollbarLocation) {
+                $(this).parent().addClass('active');
+                $(this).parent().siblings().removeClass('active');
+            }
+        });
+    });
+
+
+
+
+
+    //var pagescrollmenu = $('.page-scroll_menu');
+    //// Active link switching
+    //$(window).scroll(function () {
+
+    //    if ($('#navbarlogo').hasClass('navbar-area navbar-two sticky')) {
+    //        $('#lion_image').show();
+    //        $("#navbarTwo").removeClass("overridenav");
+    //        $("#navbarTwo").addClass("overridenavcol");
+
+    //    } else {
+    //        $('#lion_image').hide();
+    //        $("#navbarTwo").removeClass("overridenavcol");
+    //        $("#navbarTwo").addClass("overridenav");
+    //    }
+
+    //});
+
+
+
+    jQuery('.vol-slider').slick({
+
+        infinite: true,
+
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        centerPadding: '15px',
+
+        autoplay: true,
+        autoplaySpeed: 1000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+
+        ]
+    });
+
+</script>
+
+
+<script>
+
+    jQuery('.azure-comm').slick({
+
+        infinite: true,
+
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        centerPadding: '15px',
+
+        autoplay: true,
+        autoplaySpeed: 1500,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+
+        ]
+    });
+
+</script>
+
+
+<script>
+
+    jQuery('.partners').slick({
+
+        infinite: true,
+
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        centerPadding: '15px',
+
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+
+        ]
+    });
+
+</script>
+
+<script>
+
+    jQuery(document).ready(function () {
+        jQuery('.more').click(function () {
+            jQuery(this).parent().toggleClass("showcontent", 1000);
+
+            $replacetext = jQuery(this).parent().hasClass('showcontent');
+            if ($replacetext) {
+                $replacetext = "Show Less";
+                jQuery(this).text($replacetext);
+            }
+            else {
+                jQuery(this).text('Show More');
+            }
+
+
+        });
+
+    });
+</script>
+

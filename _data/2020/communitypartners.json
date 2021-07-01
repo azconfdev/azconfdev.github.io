@@ -1,0 +1,74 @@
+[
+  {
+    "name": ".NET Foundation",
+    "pic": "/assets/images/dotnetfoundation.jpg",
+    "website": "https://dotnetfoundation.org/",
+    "facebook": "https://www.facebook.com/dotnetfoundation/",
+    "twitter": "https://twitter.com/dotnetfdn"  
+  },
+  {
+    "name": "Bangalore CNCF Meetup",
+    "pic": "/assets/images/bangalore-cncf.png",
+    "website": "https://www.meetup.com/en-AU/Bangalore-CNCF-Meetup/",
+    "facebook": "#",
+    "twitter": "#"  
+  },
+  {
+    "name": "Bangalore Redis Meetup",
+    "pic": "/assets/images/bangalore-redis.jpg",
+    "website": "https://www.meetup.com/en-AU/bangalore-redis/",
+    "facebook": "#",
+    "twitter": "#" 
+  },
+	{
+		"name": "Bengaluru R UseR Group",
+		"pic": "/assets/images/Bengaluru-R-UseR Group.jpeg",
+		"website": "https://www.meetup.com/BengaluRu-use-R-gRoup/",
+		"facebook": "#",
+		"twitter": "#",
+		"section": "2"
+	},
+  {
+    "name": "Docker Bangalore",
+    "pic": "/assets/images/dockerbangalore.png",
+    "website": "https://www.meetup.com/Docker-Bangalore/",
+    "facebook": "#",
+    "twitter": "https://twitter.com/bangaloredocker" 
+   
+  },
+  {
+    "name": "Kubernetes-Pune",
+    "pic": "/assets/images/kubernetes-pune.png",
+    "website": "https://www.meetup.com/Kubernetes-Pune/",
+    "facebook": "#",
+    "twitter": "https://twitter.com/kubernetes_pune" 
+  },
+  {
+    "name": "Open Source Bangalore",
+    "pic": "/assets/images/opensource-blr.jpg",
+    "website": "https://www.meetup.com/opensourceblr",
+    "facebook": "#",
+    "twitter": "#" 
+  },
+  {
+    "name": "Open Data Autonomy",
+    "pic": "/assets/images/opendataautonomy.jpg",
+    "website": "https://www.meetup.com/en-AU/OpenDataAutonomy/",
+    "facebook": "#",
+    "twitter": "#" 
+  },
+  {
+    "name": "PyConf 2020",
+    "pic": "/assets/images/Pyconf.png",
+    "website": "https://www.meetup.com/HydPyGroup/events/274505483/",
+    "facebook": "#",
+    "twitter": "#" 
+  },
+  {
+    "name": "Tecoholic",
+    "pic": "/assets/images/Tecoholic.jpg",
+    "website": "https://tecoholic.com/",
+    "facebook": "#",
+    "twitter": "#" 
+  }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "type": "Conference Only",
+        "description": "Access to all the Live technical sessions",
+        "price": "Free",
+        "checkoutLink": "#"
+    },
+    {
+        "type": "Conference + Online Handson Workshops",
+        "description": "Access to all the Live technical sessions + Online handson workshops",
+        "price": "Free",
+        "checkoutLink": "#"
+    }  
+]

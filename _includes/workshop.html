@@ -1,0 +1,135 @@
+    <section id="workhop" class="about-area mt-50 pt-80">
+    <h3 class="text-center">Live Workshops</h3>
+    <div class="container">
+        <div class="event-content pt-40">
+            <div class="single-event d-md-flex mt-30">
+                <div class="col-lg-2 col-sm-6">
+                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s"
+                        style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeIn;">
+
+                        <div class="team-image">
+                            <img src="/assets/images/{{ page.image }}" alt="{{ page.name }}">
+                        </div>
+
+                        <div class="team-content">
+                            <div class="team-social">
+                                <ul class="social">
+                                    {% if page.website %}
+                                    <li><a href="{{ page.website }}"><i class="lni-website"></i></a></li>
+                                    {% endif %}
+                                    {% if page.twitter %}
+                                    <li><a href="{{ page.twitter }}"><i class="lni-twitter-original"></i></a></li>
+                                    {% endif %}
+                                    {% if page.linkedin %}
+                                    <li><a href="{{ page.linkedin }}"><i class="lni-linkedin-original"></i></a></li>
+                                    {% endif %}
+                                </ul>
+                            </div>
+                            <h4 class="team-name">{{ page.trainer }}</h4>
+                            <span class="sub-title">{{ page.trainertitle }}</span>
+                        </div>
+                    
+                    </div> <!-- single team -->
+                </div>
+                <div class="event-content media-body mt-30">
+                    <h4 class="event-title">{{page.title}}</h4>
+                    
+                    <ul class="event-meta mt-30">
+                        <li><span class="sub-title">Date : November 26</span></li>
+                        <li><span class="sub-title">Time : {{ page.time }}</span></li>
+                        <li><span class="sub-title">Slots : {{ page.attendeelimit }}</span></li>
+                        
+                        {% if page.stopreg == false %}
+                        <li> <div class="sub-title">Fee : INR {{ page.fee }}*</div></li>
+                        {% if page.soldout %}
+                        <li> <div class="btnPayNow"> 
+                            <a style="color:white" >SOLD OUT</a> </div></li>
+                        </li>
+                        <li><span class="text font-italic" style="font-size:12px">The amount collected as fees will be contributed to charity in full. Please refer the terms given below</span> </li>
+                        {% else %}
+                        
+                        <li> <div class="btnPayNow"> 
+                            <a href="{{page.regurl}}" target="_blank" style="color:white" >Book Now</a> </div></li>
+                        <li><span class="text font-italic" style="font-size:12px">The amount collected as fees will be contributed to charity in full. Please refer the terms given below</span> </li>
+                        {% endif %}
+                        {% else %}
+                        
+                        <li><div > 
+                            <span class="sub-title pt-10"><strong>For free registration, drop an email to <a href="mailto:amaldevv@outlook.com">amaldevv@outlook.com</a> mentioning your First Name, Last Name & Email Address</strong></span>
+                            <!-- <a href="#" target="_blank" style="color:white" >SOLD OUT</a> </div><span class="sub-title pl-10">Drop an email to <a href="mailto:organizers@azconf.dev">organizers@azconf.dev</a> to join the waitlist </span></li> -->
+                        {% endif %}
+                    </ul>
+                    
+                </div>
+                
+            </div> <!-- single event -->
+            <div class="mt-30  pl-10 ">
+                <h4 class="title">Contents</h4>
+                <div id="workshopcontents" class="text mt-30 mb-30">    
+                    {{ page.contents  | markdownify }}
+                </div>
+                
+                <h3 class="title">Terms & Conditions</h3>
+                <p class="text mt-30 mb-30">
+                    <ul style="margin: 30px 20px; list-style-type:initial;">
+                        <li>Workshops are conducted over Microsoft Teams Meeting and the invites will be shared with attendees</li>
+                        <li>Interaction with the trainer are allowed via Chat option or over audio</li>
+                        <li>Please Switch-Off your video while attending the workshop to avoid bandwidth issues</li>
+                        <li>The fee for attending the workshop will be mentioned in the registration form as well as in the website</li>
+                        <li>The amount for each workshop is inclusive of GST</li>
+                        <li>The attendees will get the payment receipt from the payment gateway provider when the payment is done</li>
+                        <li>Since AzConf is a community driven event, whatever amount is collected as fee will be donated to a charity organization after deducting the GST amount</li>
+                        <li>Once the organizers makes the payment to the charity organization, the receipt will be shared with attendees after the event</li>
+                        <li>Paid Tickets once booked cannot be canceled or refunded</li>
+                        <li>You can contact the organizers at: organizers@azconf.dev</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+     <!--<div class="container mt-20">
+        
+        <h3 class="title">{{page.title}}</h3>
+        <h3 class="sub-title text-center" style="background-color: #d3d3d3;">₹ {{ page.fee }}</h3>
+        <p class="text mt-30 mb-30">    
+            <p class="text mt-30 mb-30">
+                Workshops are a great opportunity for both trainers and students to collaborate effectively, have bi-directional communications, ask questions, and clarify, etc.
+                As part of the India Azure Community Conference, live Workshops are planned on the last day of the conference, November 24th. India Azure Conference is organized by the community and all talks are free to attend.
+                But Workshops are planned as paid ones and the organizers are teaming up with charity organizations so that whatever amount is collected for the workshops are donated to them.
+            </p>
+        </p>
+        
+        
+    </div>  --><!-- row -->
+</section>
+
+<style>
+#workshopcontents ul
+{
+  margin: 10px 20px;
+  list-style-type:initial;
+    
+}
+
+.btnPayNow{
+    background-image: linear-gradient(65deg, #2f9cef 0, #007bff 100%);
+    /* box-shadow: 0 8px 16px rgba(255, 77, 121, 0.25); */
+     
+    
+    /* word-wrap: break-word !important; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    
+    /* transform: rotate(90deg); */
+    /* transform-origin: left top 0; */
+    display: inline-block;
+    z-index: 1;
+}
+</style>

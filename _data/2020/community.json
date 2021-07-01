@@ -1,0 +1,154 @@
+[
+	{
+		"name": "AzureEzy",
+		"pic": "/assets/images/AzureEzy.jpg",
+		"website": "#",
+		"facebook": "#",
+		"twitter": "#",
+		"section": "2"
+	},
+	{
+		"name": "BDotNet-Bangalore .Net User Group",
+		"pic": "/assets/images/bdotnet-new.png",
+		"website": "https://www.meetup.com/en-AU/BDotNetUG/",
+		"facebook": "https://facebook.com/groups/bdotnet",
+		"twitter": "https://twitter.com/bdotnetug",
+		"section": "2"
+	},
+	{
+		"name": "BangaloreITPro User Group",
+		"pic": "/assets/images/bitpro.jpg",
+		"website": "https://www.meetup.com/en-AU/BangaloreITProUG/",
+		"facebook": "#",
+		"twitter": "#",
+		"section": "2"
+	},
+	{
+		"name": "Bengaluru Azure User Group",
+		"pic": "/assets/images/bengaluru-aug.jpg",
+		"website": "https://www.meetup.com/en-AU/Microsoft-Azure-Bangalore/",
+		"facebook": "#",
+		"twitter": "#",
+		"section": "2"
+	},
+	{
+		"name": "Chennai Azure User Group",
+		"pic": "/assets/images/chennai-aug.png",
+		"website": "https://www.meetup.com/Chennai-Microsoft-Azure-User-Group/",
+		"facebook": "#",
+		"twitter": "#",
+		"section": "2"
+	},
+	{
+		"name": "Dear Azure",
+		"pic": "/assets/images/dear-azure.jpg",
+		"website": "https://www.eventbrite.com/o/dear-azure-az-india-by-kasam-shaikh-18178264307",
+		"facebook": "https://www.facebook.com/dearazure.net/",
+		"twitter": "https://twitter.com/dearazure_net",
+		"section": "2"
+	},
+	{
+		"name": "Kerala Microsoft User Group",
+		"pic": "/assets/images/k-mug.jpeg",
+		"website": "https://www.meetup.com/KMUG-MEETUP",
+		"facebook": "https://www.facebook.com/groups/TeamKmug/",
+		"twitter": "https://twitter.com/k_mug",
+		"section": "2"
+	},
+	{
+		"name": "Microsoft DEV Geeks",
+		"pic": "/assets/images/msdevgeeks.png",
+		"website": "https://www.meetup.com/MSDEVGeeks/",
+		"facebook": "https://www.facebook.com/msdevgeeks",
+		"twitter": "https://twitter.com/msdevgeeks",
+		"section": "2"
+	},
+	{
+		"name": "Microsoft User Group - Chandigarh",
+		"pic": "/assets/images/mugchd.jpeg",
+		"website": "https://www.meetup.com/en-AU/Microsoft-User-Group-Chandigarh/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/MugCHD",
+		"section": "2"
+	},
+	{
+		"name": "Microsoft User Group Hyderabad",
+		"pic": "/assets/images/mugh.png",
+		"website": "https://mugh.net/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/mughtwits",
+		"section": "2"
+	},
+	{
+		"name": "MobConf",
+		"pic": "/assets/images/mobconf.jpeg",
+		"website": "https://www.eventbrite.com/o/mobconf-8404319286",
+		"facebook": "#",
+		"twitter": "https://twitter.com/mobdevcon",
+		"section": "2"
+	},
+	{
+		"name": "ngIndia",
+		"pic": "/assets/images/ngIndia.png",
+		"website": "https://www.ng-ind.com/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/geeknineseven",
+		"section": "2"
+	},
+	{
+		"name": " Pune User Group",
+		"pic": "/assets/images/pug.png",
+		"website": "http://puneusergroup.org/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/puneusergroup",
+		"section": "2"
+	},
+	{
+		"name": "Talklify",
+		"pic": "/assets/images/talklify-logo.png",
+		"website": "https://talklify.com/",
+		"facebook": "#",
+		"twitter": "https://twitter.com/talklify",
+		"section": "2"
+	},
+	{
+		"name": "TechMeet360",
+		"pic": "/assets/images/techmeet360.jpg",
+		"website": "https://www.meetup.com/techmeet360/",
+		"facebook": "https://www.facebook.com/groups/techmeet360",
+		"twitter": "https://twitter.com/TechMeet360",
+		"section": "2"
+	},
+	{
+		"name": "Women Who Code",
+		"pic": "/assets/images/womenwhocode.png",
+		"website": "https://www.womenwhocode.com/",
+		"facebook": "https://facebook.com/womenwhocode",
+		"twitter": "https://twitter.com/womenwhocode",
+		"section": "1"
+	},
+	{
+		"name": "WomenTech Network",
+		"pic": "/assets/images/womentech.png",
+		"website": "http://womentech.net",
+		"facebook": "https://www.facebook.com/womentech.net/",
+		"twitter": "https://twitter.com/WomenTechNet",
+		"section": "1"
+	},
+	{
+		"name": "XHackers",
+		"pic": "/assets/images/xhackers.jpg",
+		"website": "https://www.meetup.com/XHackers/",
+		"facebook": "https://www.facebook.com/groups/xhackersco/",
+		"twitter": "https://twitter.com/xhackersco",
+		"section": "2"
+	},
+	{
+		"name": "XMonkeys360",
+		"pic": "/assets/images/x360.png",
+		"website": "https://www.meetup.com/en-AU/XMonkeys360/",
+		"facebook": "https://www.facebook.com/xmonkeys360/",
+		"twitter": "https://twitter.com/XMonkeys360",
+		"section": "2"
+	}
+]
